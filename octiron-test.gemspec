@@ -11,8 +11,8 @@ lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'octiron-test/version'
 
-# rubocop:disable Style/UnneededPercentQ, Style/ExtraSpacing
-# rubocop:disable Style/SpaceAroundOperators, Metrics/BlockLength
+# rubocop:disable Style/UnneededPercentQ
+# rubocop:disable Style/SpaceAroundOperators
 Gem::Specification.new do |spec|
   spec.name          = "octiron-test"
   spec.version       = Octiron::EventDefinitions::Test::VERSION
@@ -43,5 +43,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "simplecov", "~> 0.12"
   spec.add_development_dependency "yard", "~> 0.9"
 end
-# rubocop:enable Style/SpaceAroundOperators, Metrics/BlockLength
-# rubocop:enable Style/UnneededPercentQ, Style/ExtraSpacing
+# rubocop:enable Style/SpaceAroundOperators
+# rubocop:enable Style/UnneededPercentQ
