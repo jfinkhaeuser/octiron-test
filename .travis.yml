@@ -8,3 +8,4 @@ script:
   - bundle exec codeclimate-test-reporter || true
 addons:
   code_climate:
+    repo_token: a753a988836a9ce53f66fdffd54069f4f398da62caa69ca41a3ff707e82d97c1
